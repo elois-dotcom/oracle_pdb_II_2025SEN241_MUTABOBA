@@ -1,11 +1,10 @@
-# Oracle_pdb_II_2025SEN241_MUTABOBA
+# Assignment II: Oracle Pluggable Database Management Report
 
 Pluggable Database (PDB): a portable, self-contained logical database that functions as a regular standalone database to applications but operates under a shared Container Database (CDB).
 
 TASK 4,
 
-# Assignment II: Oracle Pluggable Database Management Report
-**Date:** September 17, 2026  
+**Date:** September 22, 2026  
 **Course:** Advanced Database Systems / PL-SQL  
 **Environment:** Oracle Database 21c Express Edition (XE) via Docker on Kali Linux
 
@@ -18,8 +17,7 @@ This assignment demonstrates the administrative lifecycle of a Pluggable Databas
 
 ## 2. Oracle Environment Configuration
 *   **Operating System Host:** Kali Linux (Rolling Release)
-*   **Database Engine Host:** Docker Container Image (`gvenzl/oracle-xe:21-slim`)
-*   **Database Management Clients:** Oracle SQL Developer Extension for Visual Studio Code & Native CLI Client
+*   **Database Management Clients:** Oracle SQL Developer Extension for Visual Studio Code 
 *   **Administrative Access Role:** `SYSDBA`
 
 ---
@@ -35,7 +33,7 @@ ADMIN USER elois_plsqlauca_20252SEN241 IDENTIFIED BY "3LO15"
 FILE_NAME_CONVERT=('pdbseed','elo_db_20252SEN241');
 
 ALTER PLUGGABLE DATABASE elo_db_20252SEN241 OPEN;
-ALTER PLUGGABLE DATABASE elo_db_20252SEN241 SAVE STATE;
+ALTER PLUGGABLE DATABASE elo_db_20252SEN241 SAVE STATE; (For saving the user even when the docker restarts).
 ```
 
 ### Task B: Environment Status Verification
