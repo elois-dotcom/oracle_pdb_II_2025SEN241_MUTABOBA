@@ -65,7 +65,7 @@ I hereby declare on my honor that the database configurations, query outputs, an
 ---
 
 ## 6. Required Submission Details Block
-*   **Repository Link:** [https://github.com](https://github.com)
+*   **Repository Link:** https://github.com/elois-dotcom/oracle_pdb_II_2025SEN241_MUTABOBA 
 *   **PDB Name Created:** `ELO_DB_20252SEN241`
 *   **Issues Encountered:** Yes
 
